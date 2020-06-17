@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="comapi" />
+        <module name="cs-consumer" />
+        <module name="cs-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="comapi" target="1.8" />
+      <module name="cs-base" target="1.8" />
+      <module name="cs-consumer" target="1.8" />
+      <module name="cs-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="comapi" options="-parameters" />
+      <module name="cs-base" options="-parameters" />
+      <module name="cs-consumer" options="-parameters" />
+      <module name="cs-provider" options="-parameters" />
+    </option>
+  </component>
+</project>
