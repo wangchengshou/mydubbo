@@ -14,7 +14,7 @@ public class IUserServiceImpl implements IUserService {
     public User queryUserById(Integer id) {
         User user = new User();
         user.setAge("25");
-        user.setName("朱茵");
+        user.setName("baby");
         return user;
     }
 }
